@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    scroll-behavior: smooth;
+    @apply bg-[#141a3c]
+}
+
+.hero-eclipse {
+    @apply absolute top-0 md:left-[30px] z-[-997] w-[400px] h-[400px] rounded-full filter blur-[150px] bg-secondary;
+}
+
+.hero-eclipse-2 {
+    @apply hidden md:block absolute top-0 left-[30px] z-[-997] w-[400px] h-[400px] rounded-full filter blur-[150px] bg-[rgb(0,_203,_230)];
+}
+
+.hero-eclipse-3 {
+    @apply hidden md:block absolute top-0 left-[30px] z-[-997] w-[400px] h-[400px] rounded-full filter blur-[150px] bg-secondary;
+}
+
+section {
+    @apply scroll-mt-0
+}
